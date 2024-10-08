@@ -1,0 +1,58 @@
+.theme-btn{
+  background-color: $primary-color;
+  border-radius: 8px;
+  transition: all 300ms ease 0ms;
+  padding: 15px 50px;
+  font-size: 18px;
+  display: inline-block;
+  font-weight: 700 ;
+  color: #fff;
+&.orange{
+  background-color: $primary-color;
+}
+}
+
+.theme-list{
+  margin-block: 25px 32px;
+  li{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    span{
+      i{
+        color: #01fbaa;
+      }
+    }
+    .fa-location-dot{
+      color: $primary-color;
+    }
+    strong{
+      font-size: 16px;
+      font-weight: bold;
+      color: $text-color;
+      display: contents;
+    }
+  }
+}
+.theme-heading{
+  font-size: 35px;
+  color: $secondry-color;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.theme-paragraph{
+  font-size: 14px;
+  color: $text-color;
+  padding-bottom: 14px;
+  line-height: 1.7em;
+font-weight: 500;
+margin: 0;
+span{
+  color: $primary-color;
+}
+
+}

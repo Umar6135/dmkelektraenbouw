@@ -1,0 +1,16 @@
+.service-banner	{
+    padding-bottom: 60px;
+}
+.team{
+    background-color: #f3f6f9;
+padding-block: 100px;
+
+&-content{
+padding: 35px;
+border: 4px solid #354e7f;
+background-color: #fff; 
+border-radius: 15px 0 0 15px; 
+margin-right: -24px;
+margin-block: auto;
+}
+}

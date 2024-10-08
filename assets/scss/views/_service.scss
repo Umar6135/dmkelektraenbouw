@@ -1,0 +1,165 @@
+.accordion-button{
+    padding: 30px 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.accordion-item{
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 18px 0px rgba(224, 224, 224, .3);
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+.accordion-body{
+    background-color: #ffffff;
+    p{
+        font-size: 14px;
+        color: #4f4f4f;
+        line-height: 1.7em;
+    }
+}
+
+.services-list{
+
+
+width: 80%;
+margin: auto;
+background-color: #f3f6f9;
+border-radius: 15px;
+overflow: hidden;
+box-shadow: 0px 2px 18px 0px rgba(183, 183, 183, .3);
+padding: 35px;
+margin-block: 50px;
+.theme-list{
+    margin: 0;
+}
+li{
+    color: #000;
+}
+}
+
+.service-section{
+    .theme-paragraph{
+        a{
+            color: $primary-color;
+        }
+    }
+}
+
+.bg-gray{
+    background-color: #f3f6f9;
+}
+
+
+.electrical-blogs{
+    background-image: $primary-linear-gardiant;
+    padding: 100px 0;
+    &-heading{
+        padding-bottom: 50px;
+    }
+    &-card{
+        border-radius: 10px;
+        background-color: #fff;
+        height: 96%;
+        .card-body{
+            padding: 35px 25px;
+        }
+        img{
+            border-radius: 10px 10px 0 0;
+        }
+h4{
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+}
+p{
+    font-size: 14px;
+    color: $text-color;
+    padding-bottom: 14px;
+    line-height: 1.7em;
+    margin: 0;
+}
+a{
+    display: flex;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    span{
+        color: $primary-color;
+        font-weight: 700;
+        font-size: 22px;
+    }
+}
+    }
+    &-btn{
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+
+
+.service-pricing{
+    padding-block: 100px;
+    background-color: #f3f6f9;
+    &-card{
+        text-align: center;
+        background-color: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 30px;
+  
+    box-shadow: 0 0 3px 0 rgba(205.70000000000002, 205.70000000000002, 205.70000000000002, .5);
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+        color: #000;
+    }
+    p{
+        font-size: 18px;
+        color: #4cce12;
+        font-weight: 600;
+    }
+    .theme-list{
+        margin: 0;
+        margin-bottom: 10px;
+        text-align: left;
+        li{
+            color: $text-color;
+            padding-bottom: 8px;
+        }
+    }
+
+    }
+}
+
+
+.charger-section{
+    background: url(../img/charger.webp);
+    padding: 100px 0;
+    position: relative;
+    background-color: #fff;
+    background-position: 50%;
+    background-size: cover;
+    .theme-heading{
+        margin-bottom: 30px;
+    }
+.charger-item{
+    max-width: 280px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: baseline;
+    border-radius: 100px;
+    padding: 19px 7px;
+    gap: 5px;
+    p{
+        color: #3854a8;
+        margin: 0;
+        font-size: 16px;
+    }
+    i{
+        color: #3854a8;
+        font-size: 16px;
+    }
+}
+}

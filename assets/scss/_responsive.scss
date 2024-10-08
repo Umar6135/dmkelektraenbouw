@@ -1,0 +1,274 @@
+@media (min-width: 992px) {
+    .col-md-3-5 { width: 60%; }
+}
+@media (min-width: 1200px) {
+    .col-lg-1-5 { width: 20%; }
+}
+
+@media(max-width:1200px){
+    header .navbar .nav-item {
+        padding-inline: 7px;
+    }
+    header .navbar .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .theme-btn {
+        font-size: 16px;
+    }
+    header .theme-btn {
+        padding: 14px 8px;
+    }
+    .properties-bar .properties-item p {
+        font-size: 16px;
+    }
+    .banner h1 {
+        font-size: 51px;
+
+    }
+    .theme-list li {
+        font-size: 14px;
+        padding-bottom: 11px;
+
+    }
+    .what-we-work .work-item {
+        padding: 13px 8px;
+    }
+    .service-section-content strong {
+        font-size: 18px;
+
+
+    }   
+    .theme-heading {
+        font-size: 30px;
+    }     
+    .theme-paragraph {
+        font-size: 13px;
+        line-height: 1.5em;
+    }
+    .services-cards .service-card-heading strong {
+        font-size: 18px;
+    }
+    .services-cards .service-card-heading p {
+        font-size: 12px;
+    }    
+    .services-cards .service-card-content p {
+        font-size: 13px;
+        line-height: 1.4em;
+    }
+    .other-services-list {
+        width: 90%;
+    }
+    .faq .accordians .accordion-button {
+        font-size: 16px;
+        padding: 23px 16px;
+
+    }    
+
+    .faq .accordians .accordion-body p {
+        font-size: 13px;
+        line-height: 1.3em;
+    }
+    .owl-carousel .testimonial-item .date {
+        font-size: 12px;
+    margin-bottom: 10px;
+    }    
+    .owl-carousel .testimonial-item h4{
+        font-size: 22px;
+
+    }
+    footer .footer-link {
+        font-size: 13px;
+    }
+    footer .theme-btn{
+        padding: 12px 33px;
+    }
+}
+
+
+
+
+@media(max-width:992px){
+    header .navbar .nav-item .nav-link {
+        padding: 15px 0;
+    }
+    .banner h1{
+        font-size: 41px;
+    }
+    .theme-list {
+        margin-block: 5px 21px;
+    }
+    .service-section-content {
+        padding-left: 0px;
+        padding-top: 30px; 
+    }
+    .what-we-work .work-item {
+        margin-block: 20px;
+    }
+    .faq .accordians .accordion-button {
+        font-size: 13px;
+        padding: 20px 10px;
+    }
+.service-section .theme-btn{
+    display: block;
+    text-align: center;
+}
+.services-section-content{
+    padding-top: 30px;
+}
+.other-services-heading {
+    padding: 100px 115px;
+}
+.contactus-form .contactus-list{
+    padding-left: 0;
+    padding-top: 30px;
+}
+footer .theme-heading {
+    margin-top: 40px;
+}
+.team-content{
+    margin-right: 0;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.faqs .accordians{
+    padding-left: 0;
+    padding-top: 40px;
+}
+.faqs h3 {
+    font-size: 26px;
+}
+.faqs .accordion-button {
+    font-size: 16px;
+}
+.faqs-types-item {
+    padding: 17px 0 9px 10px;
+}
+.faqs-types-item a {
+    font-size: 12px;
+}
+.faqs h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.faqs .accordion-button {
+    font-size: 14px;
+}
+.service-pricing-card {
+    margin-bottom: 20px;
+}
+.navbar-nav .dropdown-menu {
+    padding: 12px !important;
+}
+header .mega-menu .dropdown-item{
+    padding-block: 3px;
+}
+}
+
+@media(max-width:768px){
+    .top-bar-content a, .top-bar-content span {
+        font-size: 13px;
+    }
+    .banner h1 {
+        font-size: 33px;
+    }
+    .banner p {
+        max-width: 100%;
+    }
+    .other-services-heading {
+        padding: 100px 20px;
+    }
+    .service-section .accordion-button {
+        padding: 19px 6px;
+        font-size: 15px;
+    }
+    .charger-section .charger-item{
+        margin-bottom: 30px !important;
+    }
+}
+@media(max-width:576px){
+    .top-bar-content a, .top-bar-content span {
+        font-size: 12px;
+    }
+    .properties-bar .properties-item p {
+        font-size: 11px;
+    }
+    .banner h1 {
+        font-size: 24px;
+    }
+    .banner {
+        padding-top: 45px;
+    }
+    .service-section-content strong {
+        font-size: 16px;
+    }
+    .theme-heading {
+        font-size: 20px;
+    }
+    .theme-paragraph {
+        font-size: 12px;
+        line-height: 1.3em;
+    }
+    .theme-list li{
+        gap: 5px;
+    }
+    .services-heading {
+        padding-block: 112px;
+    }
+    .services-cards .service-card-heading strong {
+        font-size: 16px;
+    }
+    .services-cards .service-card-content p{
+        font-size: 12px;
+    }
+    .other-services-heading {
+        padding: 88px 0px;
+    }
+    .other-services-list{
+        padding: 17px;
+    }
+    .note .theme-btn{
+        margin-inline: 20px;
+    }
+    .workgallery-heading p {max-width: 100%;}
+    .testimonial-heading {
+        max-width: 100%;
+    }    
+    .contactus-form .contactus-card-header {
+        padding: 18px 21px;
+    }
+    .contactus-form .contactus-card-header .theme-heading{
+        font-size: 15px;
+        text-align: center;
+    }
+    .contactus-form .contactus-card form {
+        padding-inline: 5px;
+        padding-bottom: 10px;
+    }
+    .contactus-form .contactus-card form input, .contactus-form .contactus-card form textarea{
+        padding: 10px;
+        font-size: 13px;
+    }
+    .contactus-form .contactus-card form .theme-btn {
+        padding: 7px 33px;
+    }
+    .contactus-form .contactus-list-content{
+        padding: 20px 20px 40px 20px;
+    }
+    .team-content {
+        padding: 25px;
+    }
+    .team{
+        padding-block: 70px;
+    }
+    .contact{
+        margin-top: 10px;
+    }
+    header .navbar-brand img {
+        max-height: 28px;
+    }
+    header .navbar .nav-item .nav-link {
+padding: 10px;
+    }
+}
+

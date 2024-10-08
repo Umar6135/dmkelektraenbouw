@@ -1,0 +1,17 @@
+.contact{
+    padding-top: 0;
+    margin-top: -57px;
+    .theme-paragraph{
+        padding-block:  0 14px !important;
+    }
+    .contactus-card {
+        padding-top: 30px;
+    }
+.contactus-list-content{
+    background-color: #f3f6f9;
+    border-radius: 0 0 15px 15px;
+    p{
+        color: $text-color;
+    }
+}
+}
